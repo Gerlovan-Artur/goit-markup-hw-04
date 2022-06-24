@@ -239,7 +239,8 @@ p {
     border-radius: 4px;
     fill: var(--title-text-color);
 }
-.feature-list-icon:hover {
+.feature-list-icon:hover,
+.feature-list-icon:focus {
     fill: var(--accent-color);
 }
 .feature-list > .item {
@@ -385,7 +386,8 @@ p {
 
     
 }
-.social:hover {
+.social:hover,
+.social:focus {
     background-color: var(--accent-color);
 }
 .icon-social {
@@ -397,7 +399,8 @@ p {
 
     fill: currentColor;
 }
-.icon-social:hover {
+.icon-social:hover,
+.icon-social:focus {
     fill: var(--button-text);
     
 }
@@ -424,10 +427,12 @@ p {
 .icon-client {
     fill: var(--color-icon);
 }
-.icon-client:hover {
+.icon-client:hover,
+.icon-client:focus {
     fill: var(--accent-color);
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
     border-color: var(--accent-color);
 }
 footer {
@@ -485,7 +490,8 @@ footer {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
 }
-.social-footer:hover {
+.social-footer:hover,
+.social-footer:focus {
     background-color: var(--accent-color);
 }
 .icon-social-footer {
@@ -517,6 +523,7 @@ footer {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
     border-radius: 4px;
+    border: none;
 
     font-weight: 500;
     font-size: 16px;
@@ -527,6 +534,8 @@ footer {
 .filtr button:focus {
     color: var(--button-text);
     background-color: var(--accent-color);
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 .buttons > .item:not(:first-child) {
     margin-left: 8px;
@@ -553,7 +562,8 @@ footer {
     border: 1px solid #EEEEEE;
     
 }
-.projects>.item:hover {
+.projects>.item:hover,
+.projects>.item:focus {
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .projects>.item:nth-child(3n+1) {
