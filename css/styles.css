@@ -7,6 +7,7 @@
     --tertiary-bg-color: #2F303A;
     --button-text: #FFFFFF;
     --feature-gap: 30px;
+    --color-icon: #AFB1B8;
 
 }
 
@@ -90,9 +91,20 @@ a.link {
 .site-nav .item + .item {
     margin-left: 50px;
 }
+.mail-svg {
+    
+    margin-right: 10px;
+    fill: currentColor;
+}
+.tel-svg {
+    margin-right: 10px;
+    fill: currentColor;
+}
 .site-contact {
     display: flex;
-    margin-left: auto
+    margin-left: auto;
+    
+
 }
 .site-contact .link {
     color: var(--primary-text-color);
@@ -212,6 +224,21 @@ p {
     
 
 }
+.feature-list-icon {
+    margin-bottom: var(--feature-gap);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    width: 270px;
+    height: 120px;
+
+    background-color: #F5F4FA;
+    fill: var(--title-text-color);
+}
+
 .feature-list > .item {
     flex-basis: calc(100% / 4 - var(--feature-gap));
     margin-left: var(--feature-gap);
@@ -287,6 +314,14 @@ p {
     margin-top: 50px;
     
 }
+.item-team {
+    min-width: 270px;
+    min-height: 428px ;
+
+    padding-bottom: var(--feature-gap);
+
+    
+}
 .team > .item {
     flex-basis: calc(100% / 4 - var(--feature-gap));
     margin-left: var(--feature-gap);
@@ -314,7 +349,42 @@ p {
 }
 .name {
     padding-top: var(--feature-gap);
-    padding-bottom: var(--feature-gap);
+    padding-bottom: 16px;
+
+}
+.social-list {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0;
+    
+
+
+    
+}
+
+.social {
+    display: block;
+    
+
+    width: 44px;
+    height: 44px;
+    color: var(--color-icon);
+    background-color: var(--button-text);
+    
+
+    
+}
+
+.icon-social {
+    display: flex;
+    align-content: center;
+    
+
+
+    fill: currentColor;
 }
 footer {
     padding-top: 60px;
