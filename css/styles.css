@@ -502,6 +502,9 @@ footer {
 .icon-social-footer {
     fill: var(--button-text);
 }
+.social-list-footer-item + .social-list-footer-item {
+    margin-left: 10px;
+}
 
 /*portfolio*/
 .filtr {
